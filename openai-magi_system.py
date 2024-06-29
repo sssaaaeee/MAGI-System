@@ -2,8 +2,6 @@ import openai
 import os
 from typing import List
 
-# OpenAI APIキーの設定
-# sk-proj-RGOJuLUQbLrn1bdUDxtTT3BlbkFJi63IbTrAvVi1EoOCxnHa
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # 各人格のプロンプトを定義
